@@ -1,0 +1,192 @@
+
+:root {
+  --gris-claro: #f0f0f0;
+  --naranja: #ff6600;
+  --negro: #000000;
+  --blanco: #ffffff;
+  --verde-claro: #a8e6cf;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--gris-claro);
+  color: var(--negro);
+}
+
+
+nav {
+  background-color: var(--negro);
+  padding: 15px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: var(--naranja);
+}
+
+
+.bienvenida {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.bienvenida h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.bienvenida h2 {
+  color: var(--naranja);
+  margin-bottom: 20px;
+}
+
+.bienvenida p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 1.1em;
+}
+
+.boton {
+  background-color: var(--verde-claro);
+  color: var(--negro);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: var(--naranja);
+  color: var(--blanco);
+}
+
+footer {
+  background-color: var(--negro);
+  color: var(--blanco);
+  text-align: center;
+  padding: 15px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.video-container iframe {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.sobre-mi {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.sobre-mi h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.seccion {
+  margin-bottom: 40px;
+}
+
+.seccion h2 {
+  color: var(--naranja);
+  margin-bottom: 15px;
+}
+
+.seccion ul {
+  padding-left: 20px;
+  list-style-type: square;
+}
+
+.seccion ul li {
+  margin-bottom: 10px;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background-color: #f2f2f2; 
+  color: #000; 
+}
+
+.header {
+  background-color: #ff6600; 
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contenedor {
+  padding: 2rem;
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-left: 8px solid #00cc66; 
+  border-radius: 8px;
+  padding: 1rem;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tecnologias ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tecnologias li {
+  display: inline-block;
+  background-color: #e6e6e6;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 5px;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #00cc66; 
+  color: white;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
